@@ -13,7 +13,8 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "jest"
+      "jest",
+      "@types/testing-library__jest-dom"
     ],
     "paths": {
       "@/*": [
