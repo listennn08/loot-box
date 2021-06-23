@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .container {
+  @apply flex flex-col items-center;
+} */
+.btn {
+  @apply py-2 px-4 font-semibold rounded-lg shadow-md focus:outline-none;
+}
+
+.btn-green {
+  @apply text-white bg-green-500 hover:bg-green-700 transition-all;
+}
+
+.selector {
+  @apply py-2 px-4 rounded-lg font-bold border text-black bg-white;
+}
+
+@keyframes flashing-goldenrod {
+  0% {
+    box-shadow: 0 0 0.5rem goldenrod;
+  }
+
+  50% {
+    box-shadow: 0 0 0.5rem transparent;
+  }
+
+  100% {
+    box-shadow: 0 0 0.5rem goldenrod;
+  }
+}
+
+@keyframes flashing-purple {
+  0% {
+    box-shadow: 0 0 0.5rem purple;
+  }
+
+  50% {
+    box-shadow: 0 0 0.5rem transparent;
+  }
+
+  100% {
+    box-shadow: 0 0 0.5rem purple;
+  }
+}
