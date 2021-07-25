@@ -1,0 +1,1 @@
+const t=t=>t.includes("英雄")||t.includes("月光")?"heros":"artifacts",s=(t,s)=>`https://raw.githubusercontent.com/listennn08/loot-box-image/master/${t}/${s}.webp`,e=t=>Number(null==t?void 0:t.match(/\w/));export{e as g,s as i,t};
